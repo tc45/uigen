@@ -133,7 +133,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\Users\\tcurtis\\PycharmProjects\\uigen\\src\\generated\\prisma",
+      "value": "/home/runner/work/uigen/uigen/src/generated/prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -142,12 +142,12 @@ const config = {
     "binaryTargets": [
       {
         "fromEnvVar": null,
-        "value": "windows",
+        "value": "debian-openssl-3.0.x",
         "native": true
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "C:\\Users\\tcurtis\\PycharmProjects\\uigen\\prisma\\schema.prisma",
+    "sourceFilePath": "/home/runner/work/uigen/uigen/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
@@ -160,6 +160,7 @@ const config = {
     "db"
   ],
   "activeProvider": "sqlite",
+  "ciName": "GitHub Actions",
   "inlineDatasources": {
     "db": {
       "url": {
