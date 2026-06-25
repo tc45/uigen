@@ -1,0 +1,35 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e50]:
+            - generic [ref=e53]: Create a card component
+            - img [ref=e56]
+          - generic [ref=e59]:
+            - img [ref=e62]
+            - generic [ref=e67]:
+              - paragraph [ref=e69]: This is a static response. You can place an Anthropic API key in the .env file to use the Anth
+              - generic [ref=e70]:
+                - img [ref=e71]
+                - text: Generating...
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [disabled] [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - tablist [ref=e33]:
+          - tab "Preview" [selected] [ref=e34]
+          - tab "Code" [ref=e35]
+        - generic [ref=e36]:
+          - button "Sign In" [ref=e37]
+          - button "Sign Up" [ref=e38]
+      - generic [ref=e42]:
+        - img [ref=e44]
+        - heading "Welcome to UI Generator" [level=3] [ref=e46]
+        - paragraph [ref=e47]: Start building React components with AI assistance
+        - paragraph [ref=e48]: Ask the AI to create your first component to see it live here
+  - alert [ref=e49]

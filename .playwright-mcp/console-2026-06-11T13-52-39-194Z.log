@@ -1,0 +1,172 @@
+[     330ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[     500ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:14111
+[     540ms] Error: ./src/lib/prisma.ts:1:1
+Module not found: Can't resolve '@/generated/prisma'
+> 1 | import { PrismaClient } from "@/generated/prisma";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const globalForPrisma = globalThis as unknown as {
+  4 |   prisma: PrismaClient | undefined;
+
+Import map: aliased to relative './src/generated/prisma' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./src/lib/prisma.ts:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file://C:\Users\tcurtis\PycharmProjects\uigen\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:725:59)
+    at DevBundlerService.getCompilationError (file://C:\Users\tcurtis\PycharmProjects\uigen\node_modules\next\dist\server\lib\dev-bundler-service.js:39:55)
+    at DevServer.getCompilationError (file://C:\Users\tcurtis\PycharmProjects\uigen\node_modules\next\dist\server\dev\next-dev-server.js:643:42)
+    at DevServer.findPageComponents (file://C:\Users\tcurtis\PycharmProjects\uigen\node_modules\next\dist\server\dev\next-dev-server.js:613:43)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\tcurtis\PycharmProjects\uigen\node_modules\next\dist\server\base-server.js:2619:26)
+[     529ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11471
+[     536ms] [ERROR] ./src/lib/prisma.ts:1:1
+Module not found: Can't resolve '@/generated/prisma'
+> 1 | import { PrismaClient } from "@/generated/prisma";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const globalForPrisma = globalThis as unknown as {
+  4 |   prisma: PrismaClient | undefined;
+
+Import map: aliased to relative './src/generated/prisma' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[     576ms] [ERROR] ./src/lib/prisma.ts:1:1
+Module not found: Can't resolve '@/generated/prisma'
+> 1 | import { PrismaClient } from "@/generated/prisma";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const globalForPrisma = globalThis as unknown as {
+  4 |   prisma: PrismaClient | undefined;
+
+Import map: aliased to relative './src/generated/prisma' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[     689ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11886
+[    1580ms] [ERROR] ./src/lib/prisma.ts:1:1
+Module not found: Can't resolve '@/generated/prisma'
+> 1 | import { PrismaClient } from "@/generated/prisma";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const globalForPrisma = globalThis as unknown as {
+  4 |   prisma: PrismaClient | undefined;
+
+Import map: aliased to relative './src/generated/prisma' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[    1619ms] [ERROR] ./src/lib/prisma.ts:1:1
+Module not found: Can't resolve '@/generated/prisma'
+> 1 | import { PrismaClient } from "@/generated/prisma";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const globalForPrisma = globalThis as unknown as {
+  4 |   prisma: PrismaClient | undefined;
+
+Import map: aliased to relative './src/generated/prisma' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[    1661ms] [ERROR] ./src/lib/prisma.ts:1:1
+Module not found: Can't resolve '@/generated/prisma'
+> 1 | import { PrismaClient } from "@/generated/prisma";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const globalForPrisma = globalThis as unknown as {
+  4 |   prisma: PrismaClient | undefined;
+
+Import map: aliased to relative './src/generated/prisma' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[    1769ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11886
+[    1771ms] [ERROR] ./src/lib/prisma.ts:1:1
+Module not found: Can't resolve '@/generated/prisma'
+> 1 | import { PrismaClient } from "@/generated/prisma";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const globalForPrisma = globalThis as unknown as {
+  4 |   prisma: PrismaClient | undefined;
+
+Import map: aliased to relative './src/generated/prisma' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[    1826ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/favicon.ico:0
+[    1846ms] [ERROR] ./src/lib/prisma.ts:1:1
+Module not found: Can't resolve '@/generated/prisma'
+> 1 | import { PrismaClient } from "@/generated/prisma";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const globalForPrisma = globalThis as unknown as {
+  4 |   prisma: PrismaClient | undefined;
+
+Import map: aliased to relative './src/generated/prisma' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[    1937ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11886
+[    8810ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11886
+[    9045ms] [ERROR] ./src/lib/prisma.ts:1:1
+Module not found: Can't resolve '@/generated/prisma'
+> 1 | import { PrismaClient } from "@/generated/prisma";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const globalForPrisma = globalThis as unknown as {
+  4 |   prisma: PrismaClient | undefined;
+
+Import map: aliased to relative './src/generated/prisma' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[   96088ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11886
+[   96429ms] [ERROR] ./src/lib/prisma.ts:1:1
+Module not found: Can't resolve '@/generated/prisma'
+> 1 | import { PrismaClient } from "@/generated/prisma";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const globalForPrisma = globalThis as unknown as {
+  4 |   prisma: PrismaClient | undefined;
+
+Import map: aliased to relative './src/generated/prisma' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[   99492ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11886
+[   99848ms] [ERROR] ./src/lib/prisma.ts:1:1
+Module not found: Can't resolve '@/generated/prisma'
+> 1 | import { PrismaClient } from "@/generated/prisma";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const globalForPrisma = globalThis as unknown as {
+  4 |   prisma: PrismaClient | undefined;
+
+Import map: aliased to relative './src/generated/prisma' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[  103864ms] [ERROR] ./src/lib/prisma.ts:1:1
+Module not found: Can't resolve '@/generated/prisma'
+> 1 | import { PrismaClient } from "@/generated/prisma";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const globalForPrisma = globalThis as unknown as {
+  4 |   prisma: PrismaClient | undefined;
+
+Import map: aliased to relative './src/generated/prisma' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[  103921ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11886
+[  104290ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11886
+[  105037ms] [LOG] [Fast Refresh] done in 819ms @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11750
+[  105420ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11886
+[  106010ms] [LOG] [Fast Refresh] done in 702ms @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11750
+[  107420ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_2ce9398a._.js:16383
+[  108496ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[  108621ms] [LOG] [Fast Refresh] done in 225ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14891
+[  109725ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[  110178ms] [LOG] [Fast Refresh] done in 559ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14891
+[  202247ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[  202284ms] [LOG] [Fast Refresh] done in 39ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14891
+[  202773ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[  202839ms] [LOG] [Fast Refresh] done in 177ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14891
+[  208911ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[  208992ms] [LOG] [Fast Refresh] done in 187ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14891
+[  209192ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[  209258ms] [LOG] [Fast Refresh] done in 175ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14891
+[  209485ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[  209565ms] [LOG] [Fast Refresh] done in 189ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14891

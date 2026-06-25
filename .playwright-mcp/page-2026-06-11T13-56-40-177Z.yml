@@ -1,0 +1,47 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e50]:
+            - generic [ref=e53]: Create a card component
+            - img [ref=e56]
+          - generic [ref=e73]:
+            - img [ref=e76]
+            - generic [ref=e81]:
+              - paragraph [ref=e83]: This is a static response. You can place an Anthropic API key in the .env file to use the Anthropic API for component generation. Let me create an App.jsx file to display the component.
+              - generic [ref=e84]: str_replace_editor
+              - separator [ref=e85]
+              - paragraph [ref=e87]: I'll create a Card component for you.
+              - generic [ref=e88]: str_replace_editor
+              - separator [ref=e89]
+              - paragraph [ref=e91]: Now let me enhance the component with better styling.
+              - generic [ref=e92]: str_replace_editor
+              - separator [ref=e93]
+              - generic [ref=e94]:
+                - paragraph [ref=e95]: "Perfect! I've created:"
+                - list [ref=e96]:
+                  - listitem [ref=e97]: "**Car"
+              - generic [ref=e98]:
+                - img [ref=e99]
+                - text: Generating...
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [disabled] [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - tablist [ref=e33]:
+          - tab "Preview" [selected] [ref=e34]
+          - tab "Code" [ref=e35]
+        - generic [ref=e36]:
+          - button "Sign In" [ref=e37]
+          - button "Sign Up" [ref=e38]
+      - iframe [ref=e101]:
+        - generic [ref=f3e6]:
+          - heading "Amazing Product" [level=3] [ref=f3e7]
+          - paragraph [ref=f3e8]: This is a fantastic product that will change your life. Experience the difference today!
+          - button "Learn More" [ref=f3e10] [cursor=pointer]
+  - alert [ref=e49]
