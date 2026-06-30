@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import {
   ResizableHandle,
   ResizablePanel,
@@ -15,6 +16,9 @@ import { PreviewFrame } from "@/components/preview/PreviewFrame";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { HeaderActions } from "@/components/HeaderActions";
 import { ThemeSwitcher } from "@/components/ThemeSwitcher";
+import { FavoriteButton } from "@/components/favorites/FavoriteButton";
+import { Button } from "@/components/ui/button";
+import { Heart } from "lucide-react";
 
 interface MainContentProps {
   user?: {
@@ -62,17 +66,26 @@ export function MainContent({ user, project }: MainContentProps) {
               <div className="h-full flex flex-col bg-card">
                 {/* Top Bar */}
                 <div className="h-14 border-b border-border/60 px-6 flex items-center justify-between bg-muted/50">
-                  <Tabs
-                    value={activeView}
-                    onValueChange={(v) =>
-                      setActiveView(v as "preview" | "code")
-                    }
-                  >
-                    <TabsList className="bg-card/60 border border-border/60 p-0.5 h-9 shadow-sm">
-                      <TabsTrigger value="preview" className="data-[state=active]:bg-card data-[state=active]:text-foreground data-[state=active]:shadow-sm text-muted-foreground px-4 py-1.5 text-sm font-medium transition-all">Preview</TabsTrigger>
-                      <TabsTrigger value="code" className="data-[state=active]:bg-card data-[state=active]:text-foreground data-[state=active]:shadow-sm text-muted-foreground px-4 py-1.5 text-sm font-medium transition-all">Code</TabsTrigger>
-                    </TabsList>
-                  </Tabs>
+                  <div className="flex items-center gap-3">
+                    <Tabs
+                      value={activeView}
+                      onValueChange={(v) =>
+                        setActiveView(v as "preview" | "code")
+                      }
+                    >
+                      <TabsList className="bg-card/60 border border-border/60 p-0.5 h-9 shadow-sm">
+                        <TabsTrigger value="preview" className="data-[state=active]:bg-card data-[state=active]:text-foreground data-[state=active]:shadow-sm text-muted-foreground px-4 py-1.5 text-sm font-medium transition-all">Preview</TabsTrigger>
+                        <TabsTrigger value="code" className="data-[state=active]:bg-card data-[state=active]:text-foreground data-[state=active]:shadow-sm text-muted-foreground px-4 py-1.5 text-sm font-medium transition-all">Code</TabsTrigger>
+                      </TabsList>
+                    </Tabs>
+                    <FavoriteButton user={user} projectName={project?.name} />
+                    <Button variant="outline" size="sm" className="h-8 gap-1.5 text-sm" asChild>
+                      <Link href="/favorites">
+                        <Heart className="h-3.5 w-3.5" />
+                        Favorites
+                      </Link>
+                    </Button>
+                  </div>
                   <HeaderActions user={user} projectId={project?.id} />
                 </div>
 
